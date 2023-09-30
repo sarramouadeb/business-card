@@ -1,0 +1,39 @@
+body{
+    margin: 20px;
+    font-family:georgia, Times, serif;
+   
+}
+.avatar{
+    width:150px;
+    border-radius:100%;
+}
+.card{
+    width:400px;
+    margin: 0px auto;/*0px:bottom+top right+left*/
+    border:1px dotted blue;
+    padding:20px;
+    display:flex;
+    /*adding horizontal space*/
+    justify-content: space-around;
+    text-align: center;
+    background:#feeafa;
+    color:#2b2839;
+    box-shadow: 5px 5px #fae0e4;
+    animation-name: example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;}
+
+.border-dotted{
+    border:1px dotted #dee2ff;
+    border-bottom: 8px solid #ffccd5;
+}
+.border-dotted1{
+    border:1px dotted #dee2ff;}
+h3:hover,p:hover,h4:hover{
+        color:#3a0ca3; 
+    }
+@keyframes example{
+    from{background-color:#feeafa;}
+    to{background-color:#dee2ff;}
+}
